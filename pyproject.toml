@@ -7,13 +7,13 @@ name = "nanda-model-provenance"
 version = "0.1.0"
 description = "Model provenance metadata for NANDA agent discovery"
 readme = "README.md"
-license = "Apache-2.0"
+license = "MIT"
 requires-python = ">=3.10"
 keywords = ["nanda", "agent", "model", "provenance", "metadata"]
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Developers",
-    "License :: OSI Approved :: Apache Software License",
+    "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",

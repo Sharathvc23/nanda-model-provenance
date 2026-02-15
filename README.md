@@ -119,4 +119,4 @@ Developed by [stellarminds.ai](https://stellarminds.ai), open-sourced for [proje
 
 ## License
 
-Apache-2.0
+MIT
