@@ -102,6 +102,7 @@ All optional fields default to `""` and are omitted from serialized output.
 | [`nanda-model-card`](https://github.com/Sharathvc23/model-card) | "What is this model?" (unified metadata schema — type, status, risk level, metrics, weights hash) |
 | [`nanda-model-integrity-layer`](https://github.com/Sharathvc23/nanda-model-integrity-layer) | "Does this model's metadata meet policy?" (rule-based checks) |
 | [`nanda-model-governance`](https://github.com/Sharathvc23/nanda-governance) | "Has this model been cryptographically approved for deployment?" (approval flow with signatures, quorum, scoping, revocation) |
+| [`nanda-bridge`](https://github.com/Sharathvc23/nanda-bridge) | "How do I expose this to the NANDA network?" (FastAPI router, AgentFacts models, delta sync) |
 
 ## Development
 
