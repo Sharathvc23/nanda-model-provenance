@@ -69,6 +69,15 @@ The default AgentFacts extension key is `x_model_provenance` (vendor-neutral, fo
 provenance.to_agentfacts_extension(extension_key="x_myvendor")
 ```
 
+## Related Packages
+
+| Package | Question it answers |
+|---------|-------------------|
+| `nanda-model-provenance` (this package) | "Where did this model come from?" (identity, versioning, provider, NANDA serialization) |
+| [`model-card`](https://github.com/Sharathvc23/model-card) | "What is this model?" (unified metadata schema — type, status, risk level, metrics, weights hash) |
+| [`nanda-model-integrity-layer`](https://github.com/Sharathvc23/nanda-model-integrity-layer) | "Does this model's metadata meet policy?" (rule-based checks) |
+| [`nanda-model-governance`](https://github.com/Sharathvc23/nanda-governance) | "Has this model been cryptographically approved for deployment?" (approval flow with signatures, quorum, scoping, revocation) |
+
 ## Development
 
 ```bash
